@@ -22,7 +22,7 @@ class Login extends Main_Controller {
 
         //carrega as views
         $this->load->view('include/header');
-        $this->load->view('fabricantes_view');
+        $this->load->view('login_view');
         $this->load->view('include/footer');
     }
 
