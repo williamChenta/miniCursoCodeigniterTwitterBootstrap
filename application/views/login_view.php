@@ -6,5 +6,5 @@
   <input type="password" id="senha" name="senha" placeholder="Senha" class="input-block-level">
   <button type="submit" class="btn btn-large btn-primary">Entrar</button>
 </form>
-
+  <span style="margin-left:550px"><?php echo $status_login; ?></span>
 </div>

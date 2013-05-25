@@ -8,7 +8,7 @@ class Login_model extends CI_Model {
 
   function getLogin($post) {
       $query = $this->db->get_where('usuarios', array('login' => $post['login'], 'senha' => $post['senha']));
-      return $query->num_rows;
+      return $query;
   }
 }
 
